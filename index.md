@@ -45,24 +45,26 @@ We will also offer office hours during the semester. Please write us an email to
 
    <details>
    <summary>Summary</summary>
+   <ul>
+   <li>A <b>multi-hop</b> dataset whose claims require evidence from as many as four English Wikipedia articles;</li>
    
-   (1) A <b>multi-hop</b> dataset whose claims require evidence from as many as four English Wikipedia articles;
-   
-   (2) <b>A pipeline system</b> of fact extraction and claim verification;
-   
+   <li><b>A pipeline system</b> of fact extraction and claim verification;
     <ul>
     <li>Rule- and neural-based document retrieval</li>
     <li>Neural-based sentence selection</li>
     <li>BERT-based model for recognizing entailment between a claim and an set of sentences (called evidence)</li>
     </ul>
+   </li>
+   </ul>
    </details>
 
+
 2. DialFact: A Benchmark for Fact-Checking in Dialogue
+   
    Link: <https://aclanthology.org/2022.acl-long.263/>
 
    <details>
-   <summary>Summary</summary>
-   
+   <summary>Summary</summary> 
    A <b>dialogue dataset</b> with <b>three sub-tasks</b>:
    <ul>
     <li>Verifiable claim detection aims to distinguish responses that do not contain verifiable factual information</li>
@@ -70,10 +72,11 @@ We will also offer office hours during the semester. Please write us an email to
     <li>Claim verification aims to classify if a response is supported, refuted, or does not have enough information to be verified given the dialogue history and the retrieved evidence</li>
    </ul>
   Lexical overlap-based <b>models</b> for the 1st sub-task; 2nd sub-task consists of document retrieval and sentence selection; in the 3rd sub-task claim is classified based on the context and selected sentences.
-
    </details>
 
+
 3. AVERITEC: A Dataset for Real-world Claim Verification with Evidence from the Web
+   
    Link: <https://proceedings.neurips.cc/paper_files/paper/2023/file/cd86a30526cd1aff61d6f89f107634e4-Paper-Datasets_and_Benchmarks.pdf>
 
    <details>
@@ -90,21 +93,23 @@ We will also offer office hours during the semester. Please write us an email to
    </ul>
    </details>
 
+
 4. FACTIFY: A Multi-Modal Fact Verification Dataset
+   
    Link: <https://ceur-ws.org/Vol-3199/paper18.pdf>
 
    <details>
    <summary>Summary</summary>
-   
    The largest <b>multimodal</b> fact verification public dataset consisting of 50K data points, covering news from India and the US. It has <b>five categories</b>: Support_Text, Support_Multimodal, Insufficient_Text, Insufficient_Multimodal and Refute. This paper explores 2 different settings to establish the baselines i.e., text-only & multimodal.
    </details>
 
+
 5. EX-FEVER: A Dataset for Multi-hop Explainable Fact Verification
+   
    Link: <https://arxiv.org/pdf/2310.09754.pdf>
 
    <details>
-   <summary>Summary</summary>
-   
+   <summary>Summary</summary>   
    A dataset for <b>multi-hop explainable</b> fact verification. Each claim is accompanied by two or three golden documents containing the necessary information for veracity reasoning, a veracity label and an explanation that outlines <b>the reasoning path supporting the veracity classification</b>.
    
    The <b>baseline model</b> includes 3 parts: 
@@ -117,77 +122,83 @@ We will also offer office hours during the semester. Please write us an email to
    This paper explores <b>LLMs in the fact checking task</b> in two directions: directly using LLMs as an actor, and using LLMs as a planner, they also evaluate the verdict accuracy and the ability of LLMs to generate explanations.
    </details>
 
+
 6. Active PETs: Active Data Annotation Prioritisation for Few-Shot Claim Verification with Pattern Exploiting Training
+   
    Link: <https://aclanthology.org/2023.findings-eacl.14/>
 
    <details>
-   <summary>Summary</summary>
-   
+   <summary>Summary</summary> 
    Focus is on <b>claim verification step</b>. This paper proposes to optimise the selection of candidate instances to be labelled through <b>active learning</b> in a situation when there is <b>a lack of annotated data</b>.
    </details>
+
 
 #### Approaches and Models
 
 7. Fact or Fiction: Verifying Scientific Claims
-    Link: <https://aclanthology.org/2020.emnlp-main.609/>
+   
+   Link: <https://aclanthology.org/2020.emnlp-main.609/>
 
    <details>
-   <summary>Summary</summary>
-   
+   <summary>Summary</summary>   
    A <b>dataset</b> of 1,409 <b>scientific claims</b> accompanied by abstracts that support or refute each claim, and annotated with <b>rationales</b> justifying each SUPPORTS / REFUTES decision.
   
-  The <b>baseline</b> is a pipeline system which:
-  <ul>
-  <li>Retrieves abstracts related to an input claim  using the TF-IDF score</li>
-  <li>Uses a BERT-based sentence selector to identify rationale sentences by scoring them</li>
-  <li>Labels each abstract as SUPPORTS, REFUTES, or NOINFO with respect to the claim, using BERT</li>
-  </ul>
-  </details>
+   The <b>baseline</b> is a pipeline system which:
+   <ul>
+   <li>Retrieves abstracts related to an input claim  using the TF-IDF score</li>
+   <li>Uses a BERT-based sentence selector to identify rationale sentences by scoring them</li>
+   <li>Labels each abstract as SUPPORTS, REFUTES, or NOINFO with respect to the claim, using BERT</li>
+   </ul>
+   </details>
+
 
 8. Generating Fact Checking Explanations
-    Link: <https://aclanthology.org/2020.acl-main.656/>
+   
+   Link: <https://aclanthology.org/2020.acl-main.656/>
 
    <details>
    <summary>Summary</summary>
-   
    This is a study for how <b>justifications for verdicts</b> on claims can be <b>generated automatically</b> based on available claim context, and how this task can be modelled jointly with veracity prediction.  
    </details>
 
+
 9. A Semantics-Aware Approach to Automated Claim Verification
-    Link: <https://aclanthology.org/2022.fever-1.5/>
+    
+   Link: <https://aclanthology.org/2022.fever-1.5/>
 
    <details>
    <summary>Summary</summary>
-   
    This work demonstrates that enriching a BERT model with <b>explicit semantic information</b> (Semantic Role Labelling, Open Information Extraction) helps to improve results in claim verification. Focus on <b>verdict prediction</b>. This approach integrates semantic information using the SemBERT architecture.
    </details>
 
+
 10. Generating Literal and Implied Subquestions to Fact-check Complex Claims
-     Link: <https://aclanthology.org/2022.emnlp-main.229/>
+    
+    Link: <https://aclanthology.org/2022.emnlp-main.229/>
 
     <details>
-    <summary>Summary</summary>
-   
+    <summary>Summary</summary>  
     Focus is on <b>decomposing a complex claim</b> into a comprehensive set of yes-no sub-questions whose answers influence the veracity of the claim.
     This paper presents a <b>dataset</b> of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, they write subquestions covering both explicit propositions of the original claim and its implicit facets. Each claim is classified as one of <b>six labels</b>: pants on fire (most false), false, barely true, half-true, mostly true, and true.
     They also study whether SOTA pre-trained models can learn to <b>generate such subquestions</b> and do not build a full pipeline for fact verification in this paper.
     </details>
 
+
 11. Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models
-     Link: <https://aclanthology.org/2023.findings-emnlp.416/>
+    Link: <https://aclanthology.org/2023.findings-emnlp.416/>
 
     <details>
     <summary>Summary</summary>
-   
     In this paper the authors attempt to verify <b>complex claims</b> and <b>generate explanations</b> without any annotated evidence, just by using <b>LLMs</b>. They leverage the in-context learning ability of LLMs to translate the claim into a <b>First-Order-Logic (FOL)</b> clause consisting of predicates, each corresponding to a subclaim that needs to be verified. Then, they perform FOL-Guided reasoning over a set of knowledge-grounded question-and-answer pairs to make veracity predictions and generate explanations to justify the decision-making process. The generated answers are grounded in real-world truth via retrieving accurate information from trustworthy <b>external knowledge sources</b> (e.g. Google or Wikipedia).
     </details>
 
+
 12. Low-Shot Learning for Fictional Claim Verification
-     Link: <https://www.semanticscholar.org/paper/Low-Shot-Learning-for-Fictional-Claim-Verification-Chadalapaka-Nguyen/8232d36767293ed7ba64c1feb6d1f80d6641fb9d/>
+    
+    Link: <https://www.semanticscholar.org/paper/Low-Shot-Learning-for-Fictional-Claim-Verification-Chadalapaka-Nguyen/8232d36767293ed7ba64c1feb6d1f80d6641fb9d/>
 
     <details>
     <summary>Summary</summary>
-   
      This work studies the problem of claim verification in the context of claims about <b>fictional stories</b> in a low-shot learning setting.
      The paper presents 2 <b>datasets</b>:
      <ul>
@@ -197,13 +208,14 @@ We will also offer office hours during the semester. Please write us an email to
      
      Focus is on the detection of two main classes of plot holes: <b>continuity errors</b>, and <b>unresolved storylines</b>. The <b>pipeline</b> consists of 3 phases: two data preprocessing steps to first generate story encodings and then a knowledge graph, and then a joint graph neural network and deep neural network (DNN) model.
     </details>
+    
 
 13. GERE: Generative Evidence Retrieval for Fact Verification
-     Link: <https://dl.acm.org/doi/pdf/10.1145/3477495.3531827/>
+   
+    Link: <https://dl.acm.org/doi/pdf/10.1145/3477495.3531827/>
 
     <details>
     <summary>Summary</summary>
-   
     The paper proposes to bypass the explicit retrieval process and introduces <b>a system that retrieves evidences in a generative way</b>. It exploits a transformer-based encoder–decoder architecture, pre-trained with a language modeling objective and fine-tuned to generate document titles and evidence sentence identifiers jointly.
     
     <b>Advantages:</b>
@@ -216,16 +228,18 @@ We will also offer office hours during the semester. Please write us an email to
     Based on the evidences obtained by GERE, they also train <b>a claim verification model</b>.
     </details>
 
+
 14. Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method
-     Link: <https://arxiv.org/pdf/2310.00305.pdf/>
+    
+    Link: <https://arxiv.org/pdf/2310.00305.pdf/>
 
     <details>
-    <summary>Summary</summary>
-   
+    <summary>Summary</summary> 
      This work examines <b>LLMs</b> with in-context learning for news claim verification, and finds that only with 4-shot demonstration examples, the performance of several prompting methods becomes comparable with previous supervised models.
    
      The paper introduces <b>a prompting method</b> which directs LLMs to <b>separate a claim into several subclaims</b> and then <b>verify each of them via multiple questions-answering steps</b> progressively.
     </details>
+
 
 ### Additional papers:
 
