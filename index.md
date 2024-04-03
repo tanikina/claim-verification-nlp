@@ -57,7 +57,7 @@ We will also offer office hours during the semester. Please write us an email to
    </li>
    </ul>
    </details>
-
+</br>
 
 2. DialFact: A Benchmark for Fact-Checking in Dialogue
    
@@ -73,7 +73,7 @@ We will also offer office hours during the semester. Please write us an email to
    </ul>
   Lexical overlap-based <b>models</b> for the 1st sub-task; 2nd sub-task consists of document retrieval and sentence selection; in the 3rd sub-task claim is classified based on the context and selected sentences.
    </details>
-
+</br>
 
 3. AVERITEC: A Dataset for Real-world Claim Verification with Evidence from the Web
    
@@ -86,13 +86,13 @@ We will also offer office hours during the semester. Please write us an email to
    
    Baseline <b>pipeline model</b> (uses <b>prompting</b>):
    <ul>
-   <li>Retrieve documents using claim's keywords and generated quetions; 
+   <li>Retrieve documents using claim's keywords and generated quetions</li>
    <li>Pick out sentences and generate question for them</li>
    <li>Produce labels</li>
    <li>Generate a textual justification for the verdict</li>
    </ul>
    </details>
-
+</br>
 
 4. FACTIFY: A Multi-Modal Fact Verification Dataset
    
@@ -102,7 +102,7 @@ We will also offer office hours during the semester. Please write us an email to
    <summary>Summary</summary>
    The largest <b>multimodal</b> fact verification public dataset consisting of 50K data points, covering news from India and the US. It has <b>five categories</b>: Support_Text, Support_Multimodal, Insufficient_Text, Insufficient_Multimodal and Refute. This paper explores 2 different settings to establish the baselines i.e., text-only & multimodal.
    </details>
-
+</br>
 
 5. EX-FEVER: A Dataset for Multi-hop Explainable Fact Verification
    
@@ -121,7 +121,7 @@ We will also offer office hours during the semester. Please write us an email to
 
    This paper explores <b>LLMs in the fact checking task</b> in two directions: directly using LLMs as an actor, and using LLMs as a planner, they also evaluate the verdict accuracy and the ability of LLMs to generate explanations.
    </details>
-
+</br>
 
 6. Active PETs: Active Data Annotation Prioritisation for Few-Shot Claim Verification with Pattern Exploiting Training
    
@@ -131,7 +131,7 @@ We will also offer office hours during the semester. Please write us an email to
    <summary>Summary</summary> 
    Focus is on <b>claim verification step</b>. This paper proposes to optimise the selection of candidate instances to be labelled through <b>active learning</b> in a situation when there is <b>a lack of annotated data</b>.
    </details>
-
+</br>
 
 #### Approaches and Models
 
@@ -150,7 +150,7 @@ We will also offer office hours during the semester. Please write us an email to
    <li>Labels each abstract as SUPPORTS, REFUTES, or NOINFO with respect to the claim, using BERT</li>
    </ul>
    </details>
-
+</br>
 
 8. Generating Fact Checking Explanations
    
@@ -160,7 +160,7 @@ We will also offer office hours during the semester. Please write us an email to
    <summary>Summary</summary>
    This is a study for how <b>justifications for verdicts</b> on claims can be <b>generated automatically</b> based on available claim context, and how this task can be modelled jointly with veracity prediction.  
    </details>
-
+</br>
 
 9. A Semantics-Aware Approach to Automated Claim Verification
     
@@ -170,7 +170,7 @@ We will also offer office hours during the semester. Please write us an email to
    <summary>Summary</summary>
    This work demonstrates that enriching a BERT model with <b>explicit semantic information</b> (Semantic Role Labelling, Open Information Extraction) helps to improve results in claim verification. Focus on <b>verdict prediction</b>. This approach integrates semantic information using the SemBERT architecture.
    </details>
-
+</br>
 
 10. Generating Literal and Implied Subquestions to Fact-check Complex Claims
     
@@ -182,7 +182,7 @@ We will also offer office hours during the semester. Please write us an email to
     This paper presents a <b>dataset</b> of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, they write subquestions covering both explicit propositions of the original claim and its implicit facets. Each claim is classified as one of <b>six labels</b>: pants on fire (most false), false, barely true, half-true, mostly true, and true.
     They also study whether SOTA pre-trained models can learn to <b>generate such subquestions</b> and do not build a full pipeline for fact verification in this paper.
     </details>
-
+</br>
 
 11. Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models
     Link: <https://aclanthology.org/2023.findings-emnlp.416/>
@@ -191,7 +191,7 @@ We will also offer office hours during the semester. Please write us an email to
     <summary>Summary</summary>
     In this paper the authors attempt to verify <b>complex claims</b> and <b>generate explanations</b> without any annotated evidence, just by using <b>LLMs</b>. They leverage the in-context learning ability of LLMs to translate the claim into a <b>First-Order-Logic (FOL)</b> clause consisting of predicates, each corresponding to a subclaim that needs to be verified. Then, they perform FOL-Guided reasoning over a set of knowledge-grounded question-and-answer pairs to make veracity predictions and generate explanations to justify the decision-making process. The generated answers are grounded in real-world truth via retrieving accurate information from trustworthy <b>external knowledge sources</b> (e.g. Google or Wikipedia).
     </details>
-
+</br>
 
 12. Low-Shot Learning for Fictional Claim Verification
     
@@ -202,13 +202,13 @@ We will also offer office hours during the semester. Please write us an email to
      This work studies the problem of claim verification in the context of claims about <b>fictional stories</b> in a low-shot learning setting.
      The paper presents 2 <b>datasets</b>:
      <ul>
-     <li>2000 fictional stories pulled from the r/WritingPrompts
-     <li>2000 r/stories from subreddits and sourced from Kaggle
+     <li>2000 fictional stories pulled from the r/WritingPrompts</li>
+     <li>2000 r/stories from subreddits and sourced from Kaggle</li>
      </ul>
      
      Focus is on the detection of two main classes of plot holes: <b>continuity errors</b>, and <b>unresolved storylines</b>. The <b>pipeline</b> consists of 3 phases: two data preprocessing steps to first generate story encodings and then a knowledge graph, and then a joint graph neural network and deep neural network (DNN) model.
     </details>
-    
+</br>   
 
 13. GERE: Generative Evidence Retrieval for Fact Verification
    
@@ -227,7 +227,7 @@ We will also offer office hours during the semester. Please write us an email to
     
     Based on the evidences obtained by GERE, they also train <b>a claim verification model</b>.
     </details>
-
+</br>
 
 14. Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method
     
@@ -239,7 +239,7 @@ We will also offer office hours during the semester. Please write us an email to
    
      The paper introduces <b>a prompting method</b> which directs LLMs to <b>separate a claim into several subclaims</b> and then <b>verify each of them via multiple questions-answering steps</b> progressively.
     </details>
-
+</br>
 
 ### Additional papers:
 
