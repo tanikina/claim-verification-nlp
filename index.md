@@ -4,11 +4,11 @@ title: Claim Verification in NLP
 
 <b>Teachers:</b> Tatiana Anikina and Natalia Skachkova (DFKI)
 
-<b>Description:<b>
+<b>Description:</b>
 
-This seminar is about <b>claim verification<b>, which is an increasingly important topic in NLP. Claim verification helps to combat misinformation and for this we need to (1) identify claims that can be verified, (2) retrieve relevant evidence and (3) make a prediction (fake vs true). This task can be addressed in different ways and we will start by providing a brief overview of the claim verification research area, introduce some terminology, commonly used approaches and datasets. Then we will delve into more details and students will present some recent papers on this topic (see the recommended selection of papers below).
+This seminar is about <b>claim verification</b>, which is an increasingly important topic in NLP. Claim verification helps to combat misinformation and for this we need to (1) identify claims that can be verified, (2) retrieve relevant evidence and (3) make a prediction (fake vs true). This task can be addressed in different ways and we will start by providing a brief overview of the claim verification research area, introduce some terminology, commonly used approaches and datasets. Then we will delve into more details and students will present some recent papers on this topic (see the recommended selection of papers below).
 
-<b>Organizational info:<b>
+<b>Organizational info:</b>
 
 This is a <b>seminar</b> with 2-3 introductory lectures at the beginning of the semester followed by the student presentations.
  
@@ -25,13 +25,13 @@ The first sessions will be on Thursday (18.04) at 8:30 in C7.3 Seminar room 1.12
 
 [Link to the MS Teams channel]: https://teams.microsoft.com/l/team/19%3apMiFIBD39G4ffkzbRfpKJfFBAPnanJWYN-hgCtSq6dM1%40thread.tacv2/conversations?groupId=80931fce-c6dd-485f-b7cd-a125b3426ba7&tenantId=67610027-1ac3-49b6-8641-ccd83ce1b01f
 
-<b>Requirements:<b>
+<b>Requirements:</b>
 
 4 CP: 20 min. presentation, active participation in the paper discussions
 
 7 CP: same as for 4 CP plus a term paper about the topic presented in the seminar
 
-<b>Office hours:<b>
+<b>Office hours:</b>
 
 We will also offer office hours during the semester. Please write us an email to make an appointment (first_name.last_name@dfki.de). Students are welcome to ask any questions concerning their presentation and the papers from the reading list.
 
@@ -46,9 +46,10 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    
-   1) A <b>multi-hop</b> dataset whose claims require evidence from as many as four English Wikipedia articles;
+   (1) A <b>multi-hop</b> dataset whose claims require evidence from as many as four English Wikipedia articles;
    
-   2) <b>A pipeline system of fact extraction and claim verification:<b>
+   (2) <b>A pipeline system</b> of fact extraction and claim verification;
+   
     <ul>
     <li>Rule- and neural-based document retrieval</li>
     <li>Neural-based sentence selection</li>
@@ -62,7 +63,7 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    
-   A <b>dialogue dataset</b> with <b>three sub-tasks<b>:
+   A <b>dialogue dataset</b> with <b>three sub-tasks</b>:
    <ul>
     <li>Verifiable claim detection aims to distinguish responses that do not contain verifiable factual information</li>
     <li>Evidence retrieval involves selecting the most relevant knowledge snippets from Wikipedia which can verify the response</li>
@@ -80,7 +81,7 @@ We will also offer office hours during the semester. Please write us an email to
    
    A new <b>dataset</b> of 4,568 real-world claims. Each claim is annotated with <b>question-answer pairs</b> supported by evidence available online, as well as <b>textual justifications</b> explaining how the evidence combines to produce a verdict.
    
-   Baseline <b>pipeline model</b> (uses <b>prompting<b>):
+   Baseline <b>pipeline model</b> (uses <b>prompting</b>):
    <ul>
    <li>Retrieve documents using claim's keywords and generated quetions; 
    <li>Pick out sentences and generate question for them</li>
@@ -95,7 +96,7 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    
-   The largest <b>multimodal</b> fact verification public dataset consisting of 50K data points, covering news from India and the US. It has <b>five categories<b>: Support_Text, Support_Multimodal, Insufficient_Text, Insufficient_Multimodal and Refute. This paper explores 2 different settings to establish the baselines i.e., text-only & multimodal.
+   The largest <b>multimodal</b> fact verification public dataset consisting of 50K data points, covering news from India and the US. It has <b>five categories</b>: Support_Text, Support_Multimodal, Insufficient_Text, Insufficient_Multimodal and Refute. This paper explores 2 different settings to establish the baselines i.e., text-only & multimodal.
    </details>
 
 5. EX-FEVER: A Dataset for Multi-hop Explainable Fact Verification
@@ -104,12 +105,12 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    
-   A dataset for <b>multi-hop explainable</b> fact verification. Each claim is accompanied by two or three golden documents containing the necessary information for veracity reasoning, a veracity label and an explanation that outlines <b>the reasoning path supporting the veracity classification<b>.
+   A dataset for <b>multi-hop explainable</b> fact verification. Each claim is accompanied by two or three golden documents containing the necessary information for veracity reasoning, a veracity label and an explanation that outlines <b>the reasoning path supporting the veracity classification</b>.
    
    The <b>baseline model</b> includes 3 parts: 
    <ul>   
    <li>Rule- and neural-based document retrieval</li>
-   <li>Document <b>summarization using BART<b></li>
+   <li>Document <b>summarization using BART</b></li>
    <li>Verdict prediction with BERT or a graph-based text reasoning model, the state-of-art fact-checking model GEAR</li>
    </ul>
 
@@ -122,7 +123,7 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    
-   Focus is on <b>claim verification step<b>. This paper proposes to optimise the selection of candidate instances to be labelled through <b>active learning</b> in a situation when there is <b>a lack of annotated data<b>.
+   Focus is on <b>claim verification step</b>. This paper proposes to optimise the selection of candidate instances to be labelled through <b>active learning</b> in a situation when there is <b>a lack of annotated data</b>.
    </details>
 
 #### Approaches and Models
@@ -158,7 +159,7 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    
-   This work demonstrates that enriching a BERT model with <b>explicit semantic information</b> (Semantic Role Labelling, Open Information Extraction) helps to improve results in claim verification. Focus on <b>verdict prediction<b>. This approach integrates semantic information using the SemBERT architecture.
+   This work demonstrates that enriching a BERT model with <b>explicit semantic information</b> (Semantic Role Labelling, Open Information Extraction) helps to improve results in claim verification. Focus on <b>verdict prediction</b>. This approach integrates semantic information using the SemBERT architecture.
    </details>
 
 10. Generating Literal and Implied Subquestions to Fact-check Complex Claims
@@ -168,7 +169,7 @@ We will also offer office hours during the semester. Please write us an email to
     <summary>Summary</summary>
    
     Focus is on <b>decomposing a complex claim</b> into a comprehensive set of yes-no sub-questions whose answers influence the veracity of the claim.
-    This paper presents a <b>dataset</b> of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, they write subquestions covering both explicit propositions of the original claim and its implicit facets. Each claim is classified as one of <b>six labels<b>: pants on fire (most false), false, barely true, half-true, mostly true, and true.
+    This paper presents a <b>dataset</b> of decompositions for over 1000 claims. Given a claim and its verification paragraph written by fact-checkers, they write subquestions covering both explicit propositions of the original claim and its implicit facets. Each claim is classified as one of <b>six labels</b>: pants on fire (most false), false, barely true, half-true, mostly true, and true.
     They also study whether SOTA pre-trained models can learn to <b>generate such subquestions</b> and do not build a full pipeline for fact verification in this paper.
     </details>
 
@@ -178,7 +179,7 @@ We will also offer office hours during the semester. Please write us an email to
     <details>
     <summary>Summary</summary>
    
-    In this paper the authors attempt to verify <b>complex claims</b> and <b>generate explanations</b> without any annotated evidence, just by using <b>LLMs<b>. They leverage the in-context learning ability of LLMs to translate the claim into a <b>First-Order-Logic (FOL)</b> clause consisting of predicates, each corresponding to a subclaim that needs to be verified. Then, they perform FOL-Guided reasoning over a set of knowledge-grounded question-and-answer pairs to make veracity predictions and generate explanations to justify the decision-making process. The generated answers are grounded in real-world truth via retrieving accurate information from trustworthy <b>external knowledge sources</b> (e.g. Google or Wikipedia).
+    In this paper the authors attempt to verify <b>complex claims</b> and <b>generate explanations</b> without any annotated evidence, just by using <b>LLMs</b>. They leverage the in-context learning ability of LLMs to translate the claim into a <b>First-Order-Logic (FOL)</b> clause consisting of predicates, each corresponding to a subclaim that needs to be verified. Then, they perform FOL-Guided reasoning over a set of knowledge-grounded question-and-answer pairs to make veracity predictions and generate explanations to justify the decision-making process. The generated answers are grounded in real-world truth via retrieving accurate information from trustworthy <b>external knowledge sources</b> (e.g. Google or Wikipedia).
     </details>
 
 12. Low-Shot Learning for Fictional Claim Verification
@@ -188,13 +189,13 @@ We will also offer office hours during the semester. Please write us an email to
     <summary>Summary</summary>
    
      This work studies the problem of claim verification in the context of claims about <b>fictional stories</b> in a low-shot learning setting.
-     The paper presents 2 <b>datasets<b>:
+     The paper presents 2 <b>datasets</b>:
      <ul>
      <li>2000 fictional stories pulled from the r/WritingPrompts
      <li>2000 r/stories from subreddits and sourced from Kaggle
      </ul>
      
-     Focus is on the detection of two main classes of plot holes: <b>continuity errors<b>, and <b>unresolved storylines<b>. The <b>pipeline</b> consists of 3 phases: two data preprocessing steps to first generate story encodings and then a knowledge graph, and then a joint graph neural network and deep neural network (DNN) model.
+     Focus is on the detection of two main classes of plot holes: <b>continuity errors</b>, and <b>unresolved storylines</b>. The <b>pipeline</b> consists of 3 phases: two data preprocessing steps to first generate story encodings and then a knowledge graph, and then a joint graph neural network and deep neural network (DNN) model.
     </details>
 
 13. GERE: Generative Evidence Retrieval for Fact Verification
@@ -203,16 +204,16 @@ We will also offer office hours during the semester. Please write us an email to
     <details>
     <summary>Summary</summary>
    
-    The paper proposes to bypass the explicit retrieval process and introduces <b>a system that retrieves evidences in a generative way<b>. It exploits a transformer-based encoder–decoder architecture, pre-trained with a language modeling objective and fine-tuned to generate document titles and evidence sentence identifiers jointly.
+    The paper proposes to bypass the explicit retrieval process and introduces <b>a system that retrieves evidences in a generative way</b>. It exploits a transformer-based encoder–decoder architecture, pre-trained with a language modeling objective and fine-tuned to generate document titles and evidence sentence identifiers jointly.
     
-    <b>Advantages:<b>
+    <b>Advantages:</b>
      <ul>
      <li>Memory and computational cost is greatly reduced because the document index is eliminated and the heavy ranking process is replaced by a light generative process</li>
      <li>This approach considers the dependency information, which contributes to improving the consistency and eliminating duplication among the evidences</li>
      <li>Generative formulation allows to dynamically decide on the number of relevant documents and sentences for different claims</li>
      </ul>
     
-    Based on the evidences obtained by GERE, they also train <b>a claim verification model<b>.
+    Based on the evidences obtained by GERE, they also train <b>a claim verification model</b>.
     </details>
 
 14. Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method
