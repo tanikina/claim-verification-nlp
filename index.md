@@ -35,9 +35,9 @@ The first sessions will be on Thursday (18.04) at 8:30 in C7.3 Seminar room 1.12
 
 We will also offer office hours during the semester. Please write us an email to make an appointment (first_name.last_name@dfki.de). Students are welcome to ask any questions concerning their presentation and the papers from the reading list.
 
-### Recommended reading list:
+### <b>Recommended reading list:</b>
 
-#### Datasets and Annotation
+#### <b>Datasets and Annotation</b>
 
 1. HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification
 
@@ -133,7 +133,7 @@ We will also offer office hours during the semester. Please write us an email to
    </details>
 <br />
 
-#### Approaches and Models
+#### <b>Approaches and Models</b>
 
 7. Fact or Fiction: Verifying Scientific Claims
    
@@ -241,9 +241,9 @@ We will also offer office hours during the semester. Please write us an email to
     </details>
 <br />
 
-### Additional papers:
+### <b>Additional papers:</b>
 
-#### Datasets and Annotation
+#### <b>Datasets and Annotation</b>
 
 1. SciFact-Open: Towards open-domain scientific claim verification
    Link: <https://aclanthology.org/2022.findings-emnlp.347/>
@@ -251,7 +251,7 @@ We will also offer office hours during the semester. Please write us an email to
 2. WatClaimCheck: A new Dataset for Claim Entailment and Inference
    Link: <https://aclanthology.org/2022.acl-long.92.pdf/>
 
-#### Approaches and Models
+#### <b>Approaches and Models</b>
 
 3. Evidence-based Fact-Checking of Health-related Claims
     Link: <https://aclanthology.org/2021.findings-emnlp.297.pdf/>
