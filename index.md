@@ -41,7 +41,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 1. HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification
 
-   Link: <https://aclanthology.org/2020.findings-emnlp.309/>
+   Link: <https://aclanthology.org/2020.findings-emnlp.309>
 
    <details>
    <summary>Summary</summary>
@@ -61,7 +61,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 2. DialFact: A Benchmark for Fact-Checking in Dialogue
    
-   Link: <https://aclanthology.org/2022.acl-long.263/>
+   Link: <https://aclanthology.org/2022.acl-long.263>
 
    <details>
    <summary>Summary</summary> 
@@ -125,7 +125,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 6. Active PETs: Active Data Annotation Prioritisation for Few-Shot Claim Verification with Pattern Exploiting Training
    
-   Link: <https://aclanthology.org/2023.findings-eacl.14/>
+   Link: <https://aclanthology.org/2023.findings-eacl.14>
 
    <details>
    <summary>Summary</summary> 
@@ -137,7 +137,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 7. Fact or Fiction: Verifying Scientific Claims
    
-   Link: <https://aclanthology.org/2020.emnlp-main.609/>
+   Link: <https://aclanthology.org/2020.emnlp-main.609>
 
    <details>
    <summary>Summary</summary>   
@@ -154,7 +154,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 8. Generating Fact Checking Explanations
    
-   Link: <https://aclanthology.org/2020.acl-main.656/>
+   Link: <https://aclanthology.org/2020.acl-main.656>
 
    <details>
    <summary>Summary</summary>
@@ -164,7 +164,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 9. A Semantics-Aware Approach to Automated Claim Verification
     
-   Link: <https://aclanthology.org/2022.fever-1.5/>
+   Link: <https://aclanthology.org/2022.fever-1.5>
 
    <details>
    <summary>Summary</summary>
@@ -174,7 +174,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 10. Generating Literal and Implied Subquestions to Fact-check Complex Claims
     
-    Link: <https://aclanthology.org/2022.emnlp-main.229/>
+    Link: <https://aclanthology.org/2022.emnlp-main.229>
 
     <details>
     <summary>Summary</summary>  
@@ -185,7 +185,7 @@ We will also offer office hours during the semester. Please write us an email to
 <br />
 
 11. Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models
-    Link: <https://aclanthology.org/2023.findings-emnlp.416/>
+    Link: <https://aclanthology.org/2023.findings-emnlp.416>
 
     <details>
     <summary>Summary</summary>
@@ -195,7 +195,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 12. Low-Shot Learning for Fictional Claim Verification
     
-    Link: <https://www.semanticscholar.org/paper/Low-Shot-Learning-for-Fictional-Claim-Verification-Chadalapaka-Nguyen/8232d36767293ed7ba64c1feb6d1f80d6641fb9d/>
+    Link: <https://www.semanticscholar.org/paper/Low-Shot-Learning-for-Fictional-Claim-Verification-Chadalapaka-Nguyen/8232d36767293ed7ba64c1feb6d1f80d6641fb9d>
 
     <details>
     <summary>Summary</summary>
@@ -212,7 +212,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 13. GERE: Generative Evidence Retrieval for Fact Verification
    
-    Link: <https://dl.acm.org/doi/pdf/10.1145/3477495.3531827/>
+    Link: <https://dl.acm.org/doi/pdf/10.1145/3477495.3531827>
 
     <details>
     <summary>Summary</summary>
@@ -231,7 +231,7 @@ We will also offer office hours during the semester. Please write us an email to
 
 14. Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method
     
-    Link: <https://arxiv.org/pdf/2310.00305.pdf/>
+    Link: <https://arxiv.org/pdf/2310.00305.pdf>
 
     <details>
     <summary>Summary</summary> 
@@ -246,30 +246,30 @@ We will also offer office hours during the semester. Please write us an email to
 #### <b>Datasets and Annotation</b>
 
 1. SciFact-Open: Towards open-domain scientific claim verification
-   Link: <https://aclanthology.org/2022.findings-emnlp.347/>
+   Link: <https://aclanthology.org/2022.findings-emnlp.347>
 
 2. WatClaimCheck: A new Dataset for Claim Entailment and Inference
-   Link: <https://aclanthology.org/2022.acl-long.92.pdf/>
+   Link: <https://aclanthology.org/2022.acl-long.92.pdf>
 
 #### <b>Approaches and Models</b>
 
 3. Evidence-based Fact-Checking of Health-related Claims
-    Link: <https://aclanthology.org/2021.findings-emnlp.297.pdf/>
+    Link: <https://aclanthology.org/2021.findings-emnlp.297.pdf>
 
 4. Claim-Dissector: An Interpretable Fact-Checking System with Joint Re-ranking and Veracity Prediction
-    Link: <https://arxiv.org/pdf/2207.14116.pdf/>
+    Link: <https://arxiv.org/pdf/2207.14116.pdf>
 
 5. Missing Counter-Evidence Renders NLP Fact-Checking Unrealistic for Misinformation
-    Link: <https://arxiv.org/pdf/2210.13865.pdf/>
+    Link: <https://arxiv.org/pdf/2210.13865.pdf>
 
 6. Synthetic Disinformation Attacks on Automated Fact Verification Systems
-    Link: <https://ojs.aaai.org/index.php/AAAI/article/download/21302/21051/>
+    Link: <https://ojs.aaai.org/index.php/AAAI/article/download/21302/21051>
 
 7. Generating Scientific Claims for Zero-Shot Scientific Fact Checking
-    Link: <https://arxiv.org/pdf/2203.12990.pdf%20/>
+    Link: <https://arxiv.org/pdf/2203.12990.pdf%20>
 
 8. Counterfactual Debiasing for Fact Verification
-    Link: <https://aclanthology.org/2023.acl-long.374.pdf/>
+    Link: <https://aclanthology.org/2023.acl-long.374.pdf>
 
 9. Fact-Checking Complex Claims with Program-Guided Reasoning
-    Link: <https://arxiv.org/pdf/2305.12744.pdf/>
+    Link: <https://arxiv.org/pdf/2305.12744.pdf>
