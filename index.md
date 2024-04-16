@@ -6,7 +6,9 @@ title: Claim Verification in NLP
 
 <b>Description:</b>
 
-This seminar is about <b>claim verification</b>, which is an increasingly important topic in NLP. Claim verification helps to combat misinformation and for this we need to (1) identify claims that can be verified, (2) retrieve relevant evidence and (3) make a prediction (fake vs true). This task can be addressed in different ways and we will start by providing a brief overview of the claim verification research area, introduce some terminology, commonly used approaches and datasets. Then we will delve into more details and students will present some recent papers on this topic (see the recommended selection of papers below).
+This seminar is about <b>claim verification</b>, which is an increasingly important topic in NLP. Claim verification helps to combat misinformation and for this we need to (1) identify claims that can be verified, (2) retrieve relevant evidence and (3) make a prediction (e.g., fake vs true) with (optional) justification.
+
+This task can be addressed in different ways and we will start by providing a brief overview of the claim verification research area, introduce some terminology, commonly used approaches and datasets. Then we will delve into more details and students will present some recent papers on this topic (see the recommended selection of papers below).
 
 <b>Organizational info:</b>
 
@@ -46,9 +48,9 @@ We will also offer office hours during the semester. Please write us an email to
    <details>
    <summary>Summary</summary>
    <ul>
-   <li>A <b>multi-hop</b> dataset whose claims require evidence from as many as four English Wikipedia articles;</li>
+   <li>A <b>multi-hop</b> dataset whose claims require evidence from as many as four English Wikipedia articles</li>
    
-   <li><b>A pipeline system</b> of fact extraction and claim verification;
+   <li><b>A pipeline system</b> of fact extraction and claim verification
     <ul>
     <li>Rule- and neural-based document retrieval</li>
     <li>Neural-based sentence selection</li>
@@ -218,7 +220,6 @@ We will also offer office hours during the semester. Please write us an email to
     <summary>Summary</summary>
     The paper proposes to bypass the explicit retrieval process and introduces <b>a system that retrieves evidences in a generative way</b>. It exploits a transformer-based encoder–decoder architecture, pre-trained with a language modeling objective and fine-tuned to generate document titles and evidence sentence identifiers jointly.
     
-    <b>Advantages:</b>
      <ul>
      <li>Memory and computational cost is greatly reduced because the document index is eliminated and the heavy ranking process is replaced by a light generative process</li>
      <li>This approach considers the dependency information, which contributes to improving the consistency and eliminating duplication among the evidences</li>
